@@ -1,0 +1,30 @@
+{
+  "name": "ChatBox",
+  "version": "1.0.0",
+  "description": "A chat plugin for Office applications.",
+  "main": "src/taskpane/taskpane.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development",
+    "test": "jest"
+  },
+  "dependencies": {
+    "mammoth": "^1.4.2",
+    "xlsx": "^0.17.0",
+    "highlight.js": "^11.7.0",
+    "marked": "^4.3.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "jest": "^27.4.5"
+  },
+  "keywords": [
+    "office",
+    "add-in",
+    "chat",
+    "plugin"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
